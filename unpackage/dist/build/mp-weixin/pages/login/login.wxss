@@ -1,0 +1,63 @@
+
+.header {
+	width: 161rpx;
+	height: 161rpx;
+	/* box-shadow:0upx 0upx 60upx 0upx rgba(0,0,0,0.1);
+	border-radius:50%;
+	background-color: #000000; */
+	margin-top: 128rpx;
+	margin-bottom: 72rpx;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header image {
+	/* 	width:161upx;
+height:161upx;
+border-radius:50%; */
+
+	width: 180rpx;
+	height: 180rpx;
+}
+
+/* 主体 */
+.main {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding-left: 70rpx;
+	padding-right: 70rpx;
+}
+
+/* 底部 */
+.footer {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 28rpx;
+	margin-top: 64rpx;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+

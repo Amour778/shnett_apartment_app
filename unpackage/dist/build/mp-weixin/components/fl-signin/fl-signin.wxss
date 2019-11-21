@@ -1,0 +1,188 @@
+.header.data-v-035ba2ef {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 0 100rpx;
+	position: relative;
+	margin-bottom: 20rpx;
+}
+.header .left.data-v-035ba2ef,
+.header .right.data-v-035ba2ef {
+	width: 100rpx;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+}
+.header .left.data-v-035ba2ef {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header .right.data-v-035ba2ef {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header .right.false.data-v-035ba2ef {
+	color: #ccc;
+}
+.header .title.data-v-035ba2ef {
+	color: #333;
+	font-size: 36rpx;
+	font-weight: bold;
+	text-align: center;
+	padding: 20rpx 0;
+}
+.section.data-v-035ba2ef {
+	width: 100%;
+}
+.section .weeks.data-v-035ba2ef {
+	width: 98vw;
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 24rpx;
+	color: #999;
+	padding-bottom: 20rpx;
+	border-bottom: 1px solid #ccc;
+}
+.section .week_li.data-v-035ba2ef {
+	width: 14vw;
+	text-align: center;
+}
+.section .days.data-v-035ba2ef {
+	width: 98vw;
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.section .days .day.data-v-035ba2ef {
+	width: 14vw;
+	height: 14vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 26rpx;
+	color: #323232;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.section .days .day.data-v-035ba2ef:nth-child(7n+1) {
+	border-left: 1px solid #ccc;
+}
+.section .days .day.last_month.data-v-035ba2ef,
+.section .days .day.next_month.data-v-035ba2ef {
+	color: #ccc;
+}
+.section .days .day.true.data-v-035ba2ef {
+	color: #09bb00;
+}
+.section .days .day.false.data-v-035ba2ef,
+.section .days .day.true.data-v-035ba2ef,
+.section .days .day.repair.data-v-035ba2ef {
+	color: #fff;
+}
+.section .days .day text.data-v-035ba2ef {
+	position: relative;
+	font-size: 22rpx;
+	z-index: 0;
+}
+.section .days>.day.data-v-035ba2ef::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	z-index: 0;
+}
+.section .days>.day.true.data-v-035ba2ef::before {
+	background: #09bb00;
+}
+.section .days .day.repair.data-v-035ba2ef::before {
+	background: orangered;
+}
+.section .days .day.false.data-v-035ba2ef::before {
+	background: red;
+}
+.footer .tip.data-v-035ba2ef {
+	font-size: 24rpx;
+	color: #aaa;
+	padding: 20rpx 24rpx;
+}
+.footer .signin.data-v-035ba2ef {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 50rpx;
+}
+.footer .signin .btn.data-v-035ba2ef {
+	font-size: 28rpx;
+	color: #fff;
+	width: 200rpx;
+	text-align: center;
+	padding: 20rpx 0;
+	border-radius: 10rpx;
+}
+.footer .signin .btn.true.data-v-035ba2ef {
+	background: #09bb00;
+}
+.footer .signin .btn.false.data-v-035ba2ef {
+	background: #ccc;
+}
+

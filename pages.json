@@ -1,0 +1,120 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/applyList/applyList",
+			"style": {
+				"navigationBarTitleText": "申请列表",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/bind/bind",
+			"style": {
+				"navigationBarTitleText": "绑定账号"
+			}
+		}, {
+			"path": "pages/addApply/addApply",
+			"style": {
+				"navigationBarTitleText": "入住申请"
+			}
+		}, {
+			"path": "pages/checkIn/checkIn",
+			"style": {
+				"navigationBarTitleText": "入住登记"
+			}
+		}, {
+			"path": "pages/checkOut/checkOut",
+			"style": {
+				"navigationBarTitleText": "退租申请"
+			}
+		}, {
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		}, {
+			"path": "pages/applyCheckInInfo/applyCheckInInfo",
+			"style": {
+				"navigationBarTitleText": "入住申请详情",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/applyCheckOutInfo/applyCheckOutInfo",
+			"style": {
+				"navigationBarTitleText": "退租申请详情",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/adminLogin/adminLogin",
+			"style": {
+				"navigationBarTitleText": "管理员登陆"
+			}
+		}, {
+			"path": "pages/approval/approval",
+			"style": {
+				"navigationBarTitleText": "审批"
+			}
+		}, {
+			"path": "pages/testPage/testPage",
+			"style": {
+				"navigationBarTitleText": "测试页"
+			}
+		}, {
+			"path": "pages/noLogin/noLogin",
+			"style": {
+				"navigationBarTitleText": "订阅服务"
+			}
+		}, {
+			"path": "pages/score/score",
+			"style": {
+				"navigationBarTitleText": "服务评价"
+			}
+		}, {
+			"path": "pages/userInfo/userInfo",
+			"style": {
+				"navigationBarTitleText": "用户信息"
+			}
+		}, {
+			"path": "pages/selectApartment/selectApartment",
+			"style": {
+				"navigationBarTitleText": "选择公寓"
+			}
+		}, {
+			"path": "pages/dataAnalysis/dataAnalysis",
+			"style": {
+				"navigationBarTitleText": "数据查看"
+			}
+		}, {
+			"path": "pages/signIn/signIn",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+
+		}
+	],
+	"globalStyle": {
+		//"navigationStyle": "custom",//自定义导航栏
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

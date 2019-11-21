@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/applyList/applyList",
+    "pages/bind/bind",
+    "pages/addApply/addApply",
+    "pages/checkIn/checkIn",
+    "pages/checkOut/checkOut",
+    "pages/notice/notice",
+    "pages/applyCheckInInfo/applyCheckInInfo",
+    "pages/applyCheckOutInfo/applyCheckOutInfo",
+    "pages/adminLogin/adminLogin",
+    "pages/approval/approval",
+    "pages/testPage/testPage",
+    "pages/noLogin/noLogin",
+    "pages/score/score",
+    "pages/userInfo/userInfo",
+    "pages/selectApartment/selectApartment",
+    "pages/dataAnalysis/dataAnalysis",
+    "pages/signIn/signIn"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于签到时的地址判断"
+    }
+  },
+  "usingComponents": {
+    "bjx-inputs": "/components/bjx-inputs/bjx-inputs",
+    "xfl-select": "/components/xfl-select/xfl-select",
+    "loading": "/components/xuan-loading/xuan-loading",
+    "cu-custom": "/colorui/components/cu-custom",
+    "uni-notice-bar": "/components/uni-notice-bar/uni-notice-bar"
+  }
+}
